@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    max-width: 1600px;  
+}
+main{
+    background-image: url(../images/form1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+}
+.form1{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #F7F7F7; 
+    min-height: 100vh;
+}
+h2{
+    text-align: center;
+    color: #FF8400;
+    font-size: 35px;
+    padding: 25px 0;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 25px;
+    padding-left: 15px;
+    border: none;
+    border-bottom: 3px solid #FF8400;
+    background-color: #F7F7F7;
+    color:black;
+    margin: 15px 0;
+    
+}
+form input:focus{
+    outline: none;
+}
+form .message{
+    display: block;
+    padding-left: 15px;
+    width: 100%;
+    font-size: 25px;
+    border: none;
+    border-bottom: 3px solid #FF8400;
+    background-color: #F7F7F7;
+    color: black;
+    
+}
+form .message:focus{
+    outline: none;
+}
+form input[type=submit]{
+    border: 3px solid #FF8400;
+    color:#FF8400;
+    background-color: darkblue;
+    font-weight: 900;
+    font-size: 30px;
+    width: 25%;
+    margin: 26px auto 26px auto;
+}
+.submit:hover{
+    background-color:lightgreen;
+    transition: 0.5s;
+    cursor: pointer;
+}
+

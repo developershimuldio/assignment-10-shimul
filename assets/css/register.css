@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    max-width: 1600px;
+    background-image: url(../images/nature.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;  
+}
+.container{
+    
+}
+.register{
+    width: 40%;
+    min-height: 95vh;
+    padding-top: 10px;
+    margin: 10px auto;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.5);
+    color: #fff;
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.3);
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    /* color: #EA5455; */
+    padding: 5px 0 3px 0;
+}
+form{
+    margin: 35px ;
+}
+label{
+    font-size: 20px;
+    font-style: italic;
+}
+input#name {
+    width: 100%;
+    padding: 7px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: 0;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+
+}
+input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 18px;
+    font-weight: 900px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FF8400;
+    color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+    border: 1px solid #ddd;
+    cursor: pointer;
+    margin-top: 20px;
+}
+label,span,h2{
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
